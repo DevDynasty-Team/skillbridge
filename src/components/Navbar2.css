@@ -1,0 +1,31 @@
+#dashboard-navbar {
+  width: min(1100px, 92%);
+  margin: 18px auto;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.12);
+}
+
+#dashboard-navbar-home {
+  color: #00d9ff;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+#dashboard-navbar-links {
+  display: flex;
+  gap: 18px;
+}
+
+.dashboard-navbar-link {
+  color: #9fb0c2;
+  text-decoration: none;
+}
+
+.dashboard-navbar-link:hover {
+  color: #00d9ff;
+}

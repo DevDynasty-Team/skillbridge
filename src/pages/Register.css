@@ -1,0 +1,36 @@
+#register-main {
+  max-width: 540px;
+}
+
+#register-card {
+  padding: 32px;
+}
+
+#register-form {
+  gap: 14px;
+ 
+}
+
+@media (max-width: 520px) {
+  #register-card,
+  #login-card {
+    padding: 24px;
+  }
+}
+.auth-label {
+    color: #8ce5aba3;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.auth-submit {
+    margin-top: 5px;
+    padding: 12px;
+    border: 0;
+    border-radius: 9px;
+    background: #1da55b;
+    color: #03111e;
+    font-weight: 800;
+    cursor: pointer;
+}

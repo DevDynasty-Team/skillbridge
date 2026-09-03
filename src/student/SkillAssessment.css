@@ -1,0 +1,85 @@
+#skill-assessment {
+  width: 100%;
+}
+
+.component-heading h3 {
+  margin: 0 0 6px;
+}
+
+.component-heading p {
+  margin: 0;
+  color: #8295a8;
+}
+
+.assessment-form {
+  margin-top: 22px;
+  display: grid;
+  gap: 13px;
+}
+
+.skill-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 14px;
+  border: 1px solid #20364b;
+  border-radius: 10px;
+  background: #071321;
+}
+
+.skill-question label {
+  color: #c9d7e4;
+}
+
+.skill-score-input {
+  width: 70px;
+  padding: 9px;
+  box-sizing: border-box;
+  border: 1px solid #0cbc29;
+  border-radius: 8px;
+  background: #091a2b;
+  color: #fff;
+}
+
+.component-primary-button {
+  padding: 11px 15px;
+  border: 0;
+  border-radius: 8px;
+  background: #00d9ff;
+  color: #03111e;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.skill-profile-result {
+  margin-top: 25px;
+}
+
+.skill-profile-result h4 {
+  margin: 0 0 12px;
+}
+
+.skill-profile-list {
+  display: grid;
+  gap: 8px;
+}
+
+.skill-profile-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: 9px;
+  background: #0a1929;
+}
+
+.skill-profile-item strong {
+  color: #00d9ff;
+}
+
+@media (max-width: 600px) {
+  .skill-question {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

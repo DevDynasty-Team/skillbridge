@@ -1,0 +1,42 @@
+#post-opportunity-form {
+  margin-top: 22px;
+  display: grid;
+  gap: 15px;
+}
+
+.post-field {
+  display: grid;
+  gap: 7px;
+}
+
+.post-field label {
+  color: #c7d5e2;
+  font-size: 0.88rem;
+}
+
+.post-input,
+.post-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  border: 1px solid #263b50;
+  border-radius: 8px;
+  background: #071321;
+  color: #e6f1ff;
+  outline: none;
+}
+
+.post-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.post-input:focus,
+.post-textarea:focus {
+  border-color: #00d9ff;
+}
+
+.post-message {
+  color: #00ff26;
+  margin: 15px 0 0;
+}

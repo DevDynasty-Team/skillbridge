@@ -1,0 +1,77 @@
+#dashboard-root {
+  width: min(1150px, 94%);
+  margin: 30px auto 60px;
+}
+
+#dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(0, 217, 255, 0.12);
+}
+
+
+
+#dashboard-title {
+  margin: 6px 0 4px;
+  font-size: 2rem;
+}
+
+#dashboard-role {
+  margin: 0;
+  color: #8094a8;
+}
+
+#dashboard-logout-button,
+.dashboard-main-button {
+  border: 1px solid #294158;
+  border-radius: 9px;
+  padding: 10px 15px;
+  background: #091727;
+  color: #dce9f5;
+  cursor: pointer;
+}
+
+#dashboard-logout-button:hover {
+  border-color: #00d9ff;
+  color: #00d9ff;
+}
+
+#dashboard-content {
+  margin-top: 25px;
+}
+
+#dashboard-unauthorized {
+  width: min(450px, 90%);
+  margin: 120px auto;
+  text-align: center;
+}
+
+.dashboard-unauthorized p {
+  color: #899caf;
+}
+
+@media (max-width: 650px) {
+  #dashboard-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+#dashboard-brand {
+    color: #38cd7e;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
+
+#dashboard-logout-button, .dashboard-main-button {
+    border: 1px solid #294158;
+    border-radius: 9px;
+    padding: 10px 15px;
+    background: #1d834f;
+    color: #3e0e18;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+#industry-posts-list {
+  margin-top: 22px;
+  display: grid;
+  gap: 10px;
+}
+
+.industry-post-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 17px;
+  border: 1px solid #20364b;
+  border-radius: 11px;
+  background: #071321;
+}
+
+.industry-post-type {
+  color: #0ccf4a;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+}
+
+.industry-post-card h4 {
+  margin: 7px 0;
+}
+
+.industry-post-card p {
+  margin: 0 0 9px;
+  color: #899caf;
+  line-height: 1.5;
+}
+
+.industry-post-card small {
+  display: block;
+  margin-top: 4px;
+  color: #71869a;
+}
+
+.industry-post-delete {
+  align-self: center;
+  padding: 8px 11px;
+  border: 1px solid #3b2930;
+  border-radius: 7px;
+  background: transparent;
+  color: #d99aa8;
+  cursor: pointer;
+}

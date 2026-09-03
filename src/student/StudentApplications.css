@@ -1,0 +1,61 @@
+#student-applications-list {
+  margin-top: 22px;
+  display: grid;
+  gap: 10px;
+}
+
+.student-application-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 15px;
+  border: 1px solid #20364b;
+  border-radius: 10px;
+  background: #071321;
+}
+
+.student-application-card div {
+  display: grid;
+  gap: 5px;
+}
+
+.student-application-card span:not(.application-status) {
+  color: #8194a8;
+  font-size: 0.8rem;
+}
+
+.application-status {
+  padding: 6px 9px;
+  border-radius: 20px;
+  background: #182d3d;
+  color: #9db2c3;
+  font-size: 0.76rem;
+  text-transform: capitalize;
+}
+
+.status-shortlisted {
+  background: rgba(0, 217, 255, 0.12);
+  color: #73e4f5;
+}
+
+.status-rejected {
+  background: rgba(180, 70, 90, 0.12);
+  color: #e19aa8;
+}
+.component-primary-button {
+    padding: 11px 15px;
+    border: 0;
+    border-radius: 8px;
+    background: #126024;
+    color: #899cad;
+    font-weight: 800;
+    cursor: pointer;
+}
+.skill-profile-item strong {
+    color: #0fad6a;
+}
+.component-heading p {
+    margin: 0;
+    color: #203b11;
+}

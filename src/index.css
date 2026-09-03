@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #676F54;
+  background-image:
+    radial-gradient(circle at 50% 20%, #95D473 0%, transparent 45%);
+  color: #e6f1ff;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(0, 217, 255, 0.25);
+}

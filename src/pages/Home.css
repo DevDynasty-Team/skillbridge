@@ -1,0 +1,170 @@
+#home-page {
+  min-height: 100vh;
+}
+
+#home-main {
+  width: min(1100px, 92%);
+  margin: 0 auto 50px;
+}
+
+#home-hero {
+  min-height: 500px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#home-hero-content {
+  max-width: 780px;
+}
+
+#home-hero-label,
+#services-heading span {
+  color: #E7F5E0;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+#home-hero-title {
+  margin: 18px 0;
+  font-size: 60px;
+  line-height: 1.03;
+  letter-spacing: -2px;
+}
+
+#home-hero-title-a {
+  display: block;
+  color: #223E13;
+  font-size: 95px;
+}
+
+#home-hero-description {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #42766C;
+  line-height: 1.8;
+  font-size: 19px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#home-hero-actions {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.home-primary-button,
+.home-secondary-button {
+  padding: 12px 20px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.home-primary-button {
+  background: #66B93C;
+  color: #f7f7f7;
+  border: 1px solid #274054;
+}
+
+.home-secondary-button {
+  border: 1px solid #274054;
+  color: #dce9f5;
+  background: #66B93C;
+  color: #f7f7f7;
+}
+
+.home-features,
+.home-services-list,
+#home-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.home-feature-card,
+.home-service-card {
+  padding: 22px;
+  border: 1px solid rgba(0, 217, 255, 0.12);
+  border-radius: 14px;
+  background: rgba(9, 21, 37, 0.7);
+}
+
+.home-feature-number {
+  color: #60758b;
+  font-size: 0.75rem;
+}
+
+.home-feature-card h3,
+.home-service-card h3 {
+  margin: 12px 0 8px;
+}
+
+.home-feature-card p,
+.home-service-card p {
+  margin: 0;
+  color: #899caf;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+#services {
+  padding: 90px 0 30px;
+}
+
+#services-heading {
+  margin-bottom: 25px;
+}
+
+#services-heading h2 {
+  margin: 8px 0 0;
+  font-size: 2rem;
+}
+
+.home-services-list {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.home-service-card {
+  min-height: 110px;
+}
+
+#home-stats {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 14px;
+}
+
+.home-stat {
+  padding: 24px 12px;
+  text-align: center;
+  border-top: 1px solid rgba(0, 217, 255, 0.15);
+}
+
+.home-stat strong,
+.home-stat span {
+  display: block;
+}
+
+.home-stat strong {
+  font-size: 1.7rem;
+}
+
+.home-stat span {
+  margin-top: 5px;
+  color: #7f93a8;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 800px) {
+  .home-features,
+  .home-services-list {
+    grid-template-columns: 1fr;
+  }
+
+  #home-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

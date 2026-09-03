@@ -1,0 +1,107 @@
+#student-portfolio {
+  width: 100%;
+}
+
+.portfolio-form {
+  margin-top: 22px;
+  display: grid;
+  gap: 13px;
+}
+
+.portfolio-field {
+  display: grid;
+  gap: 7px;
+}
+
+.portfolio-field label {
+  color: #c8d5e2;
+  font-size: 0.88rem;
+}
+
+.portfolio-input,
+.portfolio-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  border: 1px solid #253b50;
+  border-radius: 8px;
+  background: #071321;
+  color: #e6f1ff;
+  outline: none;
+}
+
+.portfolio-textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.portfolio-input:focus,
+.portfolio-textarea:focus {
+  border-color: #00d9ff;
+}
+
+.portfolio-section {
+  margin-top: 28px;
+}
+
+.portfolio-section h4 {
+  margin: 0 0 12px;
+}
+
+.portfolio-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.portfolio-skill {
+  padding: 7px 10px;
+  border-radius: 20px;
+  background: rgba(0, 217, 255, 0.08);
+  color: #9bddeb;
+  font-size: 0.8rem;
+}
+
+.portfolio-items-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.portfolio-clear-button,
+.portfolio-delete-button {
+  border: 1px solid #3b2930;
+  border-radius: 7px;
+  padding: 7px 10px;
+  background: transparent;
+  color: #bdcdc0;
+  cursor: pointer;
+}
+
+.portfolio-items-list {
+  display: grid;
+  gap: 10px;
+}
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 14px;
+  border: 1px solid #20364b;
+  border-radius: 10px;
+  background: #071321;
+}
+
+.portfolio-item strong {
+  font-size: 0.95rem;
+}
+
+.portfolio-item p {
+  margin: 5px 0 0;
+  color: #8396a9;
+  line-height: 1.5;
+  font-size: 0.85rem;
+}

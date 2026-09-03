@@ -1,0 +1,63 @@
+#industry-applications-list {
+  margin-top: 22px;
+  display: grid;
+  gap: 10px;
+}
+
+.industry-application-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 16px;
+  border: 1px solid #20364b;
+  border-radius: 10px;
+  background: #071321;
+}
+
+.industry-application-card > div:first-child {
+  display: grid;
+  gap: 5px;
+}
+
+.industry-application-card span {
+  color: #8194a8;
+  font-size: 0.82rem;
+}
+
+.industry-current-status {
+  text-transform: capitalize;
+}
+
+.industry-application-actions {
+  display: flex;
+  gap: 7px;
+}
+
+.industry-shortlist-button,
+.industry-reject-button {
+  padding: 8px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: #0d9f2a;
+}
+
+.industry-shortlist-button {
+  border: 1px solid #23505b;
+  background: rgba(0, 217, 255, 0.08);
+  color: #72ddec;
+}
+
+.industry-reject-button {
+  border: 1px solid #4b3038;
+  background: transparent;
+  color: #d99aa8;
+}
+
+@media (max-width: 650px) {
+  .industry-application-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
