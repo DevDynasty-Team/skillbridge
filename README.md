@@ -50,10 +50,6 @@ import "./index.css";
 
 The data is intentionally stored in browser LocalStorage for this MVP. It can later be replaced with Supabase without changing the overall UI structure.
 
-SOBUJ SOBUJ INTERFACE ACE BOLE SONDEHO KORLE CHOLBE NA KINTU 🤣🤣🤣🤣
-
-
-
 src/ │ ├── components/
      │ ├── Navbar.jsx
      │ ├── Navbar.css 
